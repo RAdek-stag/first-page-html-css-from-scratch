@@ -62,7 +62,25 @@
     flex-flow: column;
     max-width: 200px;
 }
-
+.partthree {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.quote-quoter {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    height: 200px;
+}
+.quote {
+    display: flex;
+}
+.quoter {
+    display: flex;
+    align-self: last baseline;
+}
 ul {
     list-style: none;
     display: flex;
