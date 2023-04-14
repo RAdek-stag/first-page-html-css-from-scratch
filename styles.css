@@ -36,8 +36,36 @@
     align-items: center;
 }
 
+.parttwo {
+    display: flex;
+    flex-flow: column;
+}
+
+.random {
+    align-self: center;
+}
+
+.fours {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.one {
+    display: flex;
+    flex-flow: column;
+    max-width: 200px;
+}
+
+.two, .three, .four {
+    display: flex;
+    flex-flow: column;
+    max-width: 200px;
+}
+
 ul {
     list-style: none;
     display: flex;
     gap: 16px;
 }
+
