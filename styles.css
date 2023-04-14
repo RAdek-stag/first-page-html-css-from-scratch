@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px
+    ;
+}
