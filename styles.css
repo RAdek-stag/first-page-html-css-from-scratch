@@ -72,7 +72,6 @@
     display: flex;
     flex-flow: column;
     width: 400px;
-    height: 200px;
 }
 .quote {
     display: flex;
@@ -81,9 +80,22 @@
     display: flex;
     align-self: last baseline;
 }
+.partfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ul {
     list-style: none;
     display: flex;
     gap: 16px;
+}
+.modal {
+    display: flex;
+    gap: 20px;
+}
+
+.ra {
+    display: flex;
 }
 
